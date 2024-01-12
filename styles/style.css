@@ -178,8 +178,20 @@ main{
 .sponsor-img-container img{
     width: 165px;
 }
-
-
+/* footer section style */
+.footer{
+    height: 90px;
+    border-radius: 8px ;
+    background: #FFF4E7;
+    font-size: 1.25rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 130px 90px;
+    padding: 39px 100px;
+    color: #424242;
+}
 
 /* responsive media queries */
 /* mobile devices */
@@ -207,6 +219,10 @@ main{
     }
     .facts-card-container{
         gap: 20px;
+    }
+    .footer{
+        margin: 20px 10px;
+        padding: 30px;
     }
     
 }
